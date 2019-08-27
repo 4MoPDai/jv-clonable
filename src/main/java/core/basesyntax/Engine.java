@@ -8,7 +8,6 @@ public class Engine implements Cloneable {
     private boolean isThereColdSys;
 
     public Engine() {
-
     }
 
     public Engine(int amount, String type, int maxSpeed, int dispersal, boolean isThereColdSys) {
@@ -44,6 +43,5 @@ public class Engine implements Cloneable {
         Engine clone = new Engine(this.amount, this.type, this.maxSpeed,
                 this.dispersal, this.isThereColdSys);
         return clone;
-
     }
 }
